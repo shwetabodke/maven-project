@@ -12,13 +12,11 @@ public class Greeter {
 
   }
 
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
+  public String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 
-
-  public String greetGuest(String someoneGuest) {
+  public String greetGuest(final String someoneGuest) {
     return String.format("Hello , %s!", someoneGuest);
   }
 }
